@@ -84,6 +84,8 @@ let showWinner = () => {
 
         document.querySelector("header").innerHTML = `It is a Draw <br> <button type="reset" class='again reset' >Play Again</button>`;
         document.querySelector("header").style.margin = "20px"
+        count=0;
+        result="";
     }
     else if (iswinner == true) {
         console.log("the winner is", winner);
